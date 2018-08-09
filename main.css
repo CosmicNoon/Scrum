@@ -23,6 +23,10 @@ h2 {
   color: white;
 }
 
+article{
+  font-size: 18px;
+}
+
 #thoughts {
   background-color: #415870;
   display: grid;
