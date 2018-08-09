@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+    body {
+      width: 100%;
+    }
+
+    header {
+      width: 100%;
+      background-image: url(img/logobig.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position:center;
+      height: 250px;
+      margin-bottom: 5px;
+    }
+
+    nav{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    li {
+      font-size: 21px;
+      display: inline-block;
+    }
+
+    li a {
+        padding: 20px 8px;
+    }
+
+    h2{
+      font-size: 28px;
+    }
+
+    #tools img, #expressions img, #roles img, #forlob img, #thoughts img{
+      display: none;
+    }
+    #tools, #expressions, #roles, #forlob, #thoughts{
+      width: 100%;
+      grid-template-columns: 85% 1%;
+      color: lightblue;
+      grid-column-gap: 1px;
+      margin: 0px;
+      padding: 5px;
+      font-size: 18px;
+    }
+    #expressions a{
+      color: white;
+    }
+
+    footer{
+      font-size: 20px;
+    }
+
+}
