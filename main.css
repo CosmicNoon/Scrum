@@ -13,11 +13,10 @@ body{
 }
 
 header {
-  background-color: #197f96;
-  color: white;
-  height: 50px;
-  padding-left: 25px;
-  font-size: 20px;
+  height: 150px;
+  background-image: url(img/test.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h2 {
@@ -30,17 +29,17 @@ h2 {
   grid-template-columns: 50% 40%;
   grid-column-gap: 15px;
   margin: 5px 0px 35px 0px;
-  padding: 10px 0px 5px 25px;
+  padding: 30px 0px 5px 25px;
 
 }
 
 #forlob {
 background-color: #517499;
 display: grid;
-grid-template-columns: 40% 50%;
+grid-template-columns: 50% 40%;
 grid-column-gap: 15px;
 margin: 5px 0px 35px 0px;
-padding: 10px 0px 5px 25px;
+padding: 30px 0px 5px 25px;
 
 }
 
@@ -50,22 +49,33 @@ padding: 10px 0px 5px 25px;
   grid-template-columns: 50% 40%;
   grid-column-gap: 15px;
   margin: 5px 0px 35px 0px;
-  padding: 10px 0px 5px 25px;
+  padding: 30px 0px 5px 25px;
 
 }
 
-#tools {
+#expressions{
   background-color: #517499;
   display: grid;
-  grid-template-columns: 40% 50%;
+  grid-template-columns: 50% 40%;
   grid-column-gap: 15px;
-  margin: 5px 0px 15px 0px;
-  padding: 10px 0px 5px 25px;
+  margin: 5px 0px 35px 0px;
+  padding: 30px 0px 5px 25px;
+}
+
+#tools {
+  background-color: #415870;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  grid-column-gap: 15px;
+  margin: 5px 0px 5px 0px;
+  padding: 30px 0px 5px 25px;
 
 }
 
 footer {
-background-color: #76aae0;
+background-image:url(img/unavngivet.png);
+background-size: cover;
+background-repeat: no-repeat;
 height: 100px;
 width: 100%;
 color: white;
